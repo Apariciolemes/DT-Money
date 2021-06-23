@@ -7,15 +7,15 @@ export const Container = styled.div`
     margin-top: -10rem;
     
     div { 
-        background: var(--shape);
+        background: #fff;
         padding: 1rem 2rem;
         border-radius:0.25rem;
         color: var(--text-title)
 
         header {
             display:flex;
-            align-items: center
-            justify-content:space-between
+            align-items: center;
+            justify-content:space-between;
         }
 
         strong {
@@ -26,7 +26,7 @@ export const Container = styled.div`
             display: block;
         }
         &.highligth {
-            background: var(--green);
+            background: #33CC95;
         }
     }
 
