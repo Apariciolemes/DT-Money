@@ -4,6 +4,7 @@ import incomeImg from '../../assets/income.svg'
 import outcomeImg from '../../assets/outcome.svg'
 import closeImg from '../../assets/close.svg'
 import { useState } from 'react'
+import { api } from '../../services/api'
 
 Modal.setAppElement('#root')
 
@@ -20,8 +21,12 @@ export function NewTransactionModal({ visible, handleCloseModal }: NewTransactio
 
     function handleSubmit(event: React.MouseEvent): void {
         event.preventDefault();
-
-        console.log(type, value, category);
+        const transaction = {
+            title,
+            value,
+            category,
+        }
+      api.post('/transactions', transaction)
 
     }
     return (
