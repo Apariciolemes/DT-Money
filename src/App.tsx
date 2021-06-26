@@ -4,6 +4,7 @@ import { TransactionTable } from './components/TransactionsTable';
 import { Global } from './styles/global';
 import { useState } from 'react'
 import { NewTransactionModal } from './components/NewTransactionModal';
+import { TransactionProvider } from './TransactionsContext';
 
 
 export function App() {
@@ -17,13 +18,13 @@ export function App() {
   }
 
   return (
-    <>
+    <TransactionProvider>
       <Global />
       <Header handleOpenModal={handleOpenModal} />
       <Dashboard />
       <NewTransactionModal visible={visible} handleCloseModal={handleCloseModal} />
       <TransactionTable />
-    </>
+    </TransactionProvider>
   );
 }
 
