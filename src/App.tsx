@@ -4,7 +4,7 @@ import { TransactionTable } from './components/TransactionsTable';
 import { Global } from './styles/global';
 import { useState } from 'react'
 import { NewTransactionModal } from './components/NewTransactionModal';
-import { TransactionProvider } from './TransactionsContext';
+import { TransactionProvider } from './hooks/useTransaction'
 
 
 export function App() {

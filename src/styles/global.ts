@@ -16,6 +16,12 @@ export const Global = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
+    .color-green {
+        color:#33CC95;
+    }
+    .color-red {
+        color:#E52E4D;
+    }
     html {
         @media(max-width: 1080px) {
             font-size: 93.75% // 15px

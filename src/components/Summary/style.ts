@@ -27,6 +27,7 @@ export const Container = styled.div`
         }
         &.highligth {
             background: #33CC95;
+            color: #fff;
         }
     }
 
