@@ -1,10 +1,10 @@
 
 **DT-Money**
-- Aplicação para fins de controle financeiro, desenvolvida durante o Ignite da Rockeatseat
+- Aplicação para fins de controle financeiro, desenvolvida durante o Ignite da Rockeatseat.
 
 **Rodar o projeto**
 
-Ao clonar o projeto abra o terminal e execute o comando
+Ao clonar o projeto abra o terminal e execute o comando:
 
 `npm install`
 
