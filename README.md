@@ -1,6 +1,6 @@
 
 **DT-Money**
-- Aplicação desenvolvida durante o Ignite da Rockeatseat
+- Aplicação para fins de controle financeiro, desenvolvida durante o Ignite da Rockeatseat
 
 **Rodar o projeto**
 
