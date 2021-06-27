@@ -1,5 +1,5 @@
 
-**DT-Money**
+*DT-Money*
 - Aplicação para fins de controle financeiro, desenvolvida durante o Ignite da Rockeatseat
 
 **Rodar o projeto**
@@ -18,6 +18,7 @@ Ao clonar o projeto abra o terminal e execute o comando
 - React Modal
 - Context API
  
+#### Showcase
 
 ##### Homepage
 
