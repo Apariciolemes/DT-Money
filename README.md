@@ -18,7 +18,7 @@ Ao clonar o projeto abra o terminal e execute o comando
 - React Modal
 - Context API
  
-#### Showcase
+## Showcase
 
 ##### Homepage
 
